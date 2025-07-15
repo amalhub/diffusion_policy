@@ -43,7 +43,7 @@ dependencies = [
     "numcodecs",
     "pymunk",
     "shapely",
-    "gym==0.21.0",
+    "gymnasium",
     "pygame",
     "robomimic @ git+https://github.com/ARISE-Initiative/robomimic.git",
 ]
