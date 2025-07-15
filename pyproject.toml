@@ -62,8 +62,7 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["diffusion_policy", "diffusion_policy.*"]
-namespaces = false
+include = ["diffusion_policy*"]
 
 [tool.setuptools.package-data]
 "*" = ["*.yaml", "*.yml", "*.json", "*.txt", "*.md", "*.png", "*.jpg", "*.jpeg"]
